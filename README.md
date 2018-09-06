@@ -1,5 +1,4 @@
-Extrator de links de arquivos markdown (Node.js) v.1.0.0
-Esta biblioteca se destina à extração de links de arquivos markdown (Node.js).
+Biblioteca Validador de cartão bancário.
 
 Os métodos utilizados na biblioteca são:
 getLinksFromMd(text);
