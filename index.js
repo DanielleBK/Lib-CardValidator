@@ -1,5 +1,5 @@
 function cardValidator(cardNumber){
-  if(cardNumber !== null){
+  if(typeof cardNumber !== 'undefined' || cardNumber !== ''){ 
     for(let i = 0; i < cardNumber.length; i++){
       if(cardNumber.charCodeAt(i) < 48 || cardNumber.charCodeAt(i) > 57) {
       throw new Error('Colocar apenas numeros');
@@ -33,10 +33,10 @@ function cardValidator(cardNumber){
     sum += validate[i];
   }
 
-  if(sum % 10 === 0) {
-    return true;
-  } else {
+  if(sum % 10 !== 0) {
     return false;
+  } 
+    return true;
   }
 }
 module.exports = cardValidator;
