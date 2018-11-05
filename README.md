@@ -14,7 +14,7 @@ Exemplo de uso:
 Não aceitar apenas 1 digito;
 Devolve erro quando numero conter string;
 
-###Instalação:
+### Instalação:
 - Você deverá ter o node + npm instalados.
 
 Para guia de instalação, visite o site oficial .
